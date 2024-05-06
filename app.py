@@ -33,7 +33,7 @@ st.set_page_config(
 
 # Main title and application information
 st.title('Stock Overview with BUY / HOLD / SELL Indicator')
-st.caption('This application provides an overview of stock recommendations based on different stock lists. Select a list to view the corresponding stocks and their recommendations. Explore more on our [GitHub](https://github.com/your-repo-here) or check out related projects: [Project1](https://example.com/project1), [Project2](https://example.com/project2).')
+st.caption('This application provides an overview of stock recommendations based on different stock lists. Select a list to view the corresponding stocks and their recommendations. Explore more on our [GitHub](https://github.com/pacnimo/stock_overview) or check out related projects: [Free Stock Analytics](https://stock-analytics-dashboard.streamlit.app/), [Compare Stocks by Annual Wins with Charts](https://easy-finance.streamlit.app/).')
 
 
 # Selector for different stock lists
@@ -73,4 +73,3 @@ for _, row in data.iterrows():
 # Footer
 st.markdown("---")
 st.markdown("© 2024 Streamlit Stock Dashboard. All rights reserved.")
-
